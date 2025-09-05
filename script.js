@@ -1,6 +1,10 @@
 function firstChar(text) {
   // your code here
+	const t=text.trim();
+    if(t.length==0) return "";
+    return t[0];
 }
+
 
 // Do not change the code below
 //Uncomment the following line to show the prompt popup
